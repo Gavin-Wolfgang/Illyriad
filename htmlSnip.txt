@@ -1,0 +1,172 @@
+
+
+<!-- click image map and mouse move tracker -->
+<div id="mapZoomMove" style="position:relative;top:-480px;left:0px;width:638px;height:480px">
+<img usemap="#townMapOutline" src="//assets.illyriad.net/img//trans.gif" style="width:638px;height:480px">
+
+<map id="townMapOutline" name="townMapOutline">
+<area title="Castle [Wall 0]" href="#/Town/Castle?TownOrLand=0&amp;plotid=26" shape="rect" alt="outlineCastle" coords="380, 65, 460, 145">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [5]" href="#/Town/Building/1/1" shape="rect" alt="outline1" coords="70, 415, 95, 440">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [5]" href="#/Town/Building/1/2" shape="rect" alt="outline2" coords="147, 393, 172, 418">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [6]" href="#/Town/Building/1/3" shape="rect" alt="outline3" coords="243, 391, 268, 416">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [6]" href="#/Town/Building/1/4" shape="rect" alt="outline4" coords="327, 425, 352, 450">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [9]" href="#/Town/Building/1/5" shape="rect" alt="outline5" coords="105, 313, 130, 338">
+
+<!-- Land Plots -->
+
+   <area title="Clay Pit [9]" href="#/Town/Building/1/6" shape="rect" alt="outline6" coords="11, 203, 36, 228">
+
+<!-- Land Plots -->
+
+   <area title="Clay Pit [13]" href="#/Town/Building/1/7" shape="rect" alt="outline7" coords="28, 227, 53, 252">
+
+<!-- Land Plots -->
+
+   <area title="Clay Pit [6]" href="#/Town/Building/1/8" shape="rect" alt="outline8" coords="5, 177, 30, 202">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [10]" href="#/Town/Building/1/9" shape="rect" alt="outline9" coords="165, 315, 190, 340">
+
+<!-- Land Plots -->
+
+   <area title="Lumberjack [5]" href="#/Town/Building/1/10" shape="rect" alt="outline10" coords="47, 343, 72, 368">
+
+<!-- Land Plots -->
+
+   <area title="Iron Mine [10]" href="#/Town/Building/1/11" shape="rect" alt="outline11" coords="485, 25, 510, 50">
+
+<!-- Land Plots -->
+
+   <area title="Iron Mine [4]" href="#/Town/Building/1/12" shape="rect" alt="outline12" coords="583, 17, 608, 42">
+
+<!-- Land Plots -->
+
+   <area title="Iron Mine [13]" href="#/Town/Building/1/13" shape="rect" alt="outline13" coords="508, 45, 533, 70">
+
+<!-- Land Plots -->
+
+   <area title="Iron Mine [0]" href="#/Town/Building/1/14" shape="rect" alt="outline14" coords="603, 53, 628, 78">
+
+<!-- Land Plots -->
+
+   <area title="Iron Mine [7]" href="#/Town/Building/1/15" shape="rect" alt="outline15" coords="521, 9, 546, 34">
+
+<!-- Land Plots -->
+
+   <area title="Quarry [12]" href="#/Town/Building/1/16" shape="rect" alt="outline16" coords="169, 40, 194, 65">
+
+<!-- Land Plots -->
+
+   <area title="Quarry [5]" href="#/Town/Building/1/17" shape="rect" alt="outline17" coords="245, 17, 270, 42">
+
+<!-- Land Plots -->
+
+   <area title="Quarry [7]" href="#/Town/Building/1/18" shape="rect" alt="outline18" coords="209, 30, 234, 55">
+
+<!-- Land Plots -->
+
+   <area title="Quarry [12]" href="#/Town/Building/1/19" shape="rect" alt="outline19" coords="267, 40, 292, 65">
+
+<!-- Land Plots -->
+
+   <area title="Quarry [7]" href="#/Town/Building/1/20" shape="rect" alt="outline20" coords="380, 19, 405, 44">
+
+<!-- Land Plots -->
+
+   <area title="Farmyard [13]" href="#/Town/Building/1/21" shape="rect" alt="outline21" coords="383, 409, 408, 434">
+
+<!-- Land Plots -->
+
+   <area title="Farmyard [12]" href="#/Town/Building/1/22" shape="rect" alt="outline22" coords="429, 416, 454, 441">
+
+<!-- Land Plots -->
+
+   <area title="Farmyard [7]" href="#/Town/Building/1/23" shape="rect" alt="outline23" coords="477, 419, 502, 444">
+
+<!-- Land Plots -->
+
+   <area title="Farmyard [5]" href="#/Town/Building/1/24" shape="rect" alt="outline24" coords="519, 417, 544, 442">
+
+<!-- Land Plots -->
+
+   <area title="Farmyard [2]" href="#/Town/Building/1/25" shape="rect" alt="outline25" coords="563, 411, 588, 436">
+
+<area title="Consulate [4]" href="#/Town/Building/0/1" shape="rect" alt="outline26" coords="288, 104, 343, 139">
+
+<area title="Storehouse [14]" href="#/Town/Building/0/2" shape="rect" alt="outline27" coords="498, 127, 553, 162">
+
+<area title="Cottage [1]" href="#/Town/Building/0/3" shape="rect" alt="outline28" coords="312, 130, 367, 165">
+
+<area title="Flourmill [2]" href="#/Town/Building/0/4" shape="rect" alt="outline29" coords="204, 130, 259, 165">
+
+<area title="Cottage [1]" href="#/Town/Building/0/5" shape="rect" alt="outline30" coords="430, 152, 485, 187">
+
+<area title="Cottage [1]" href="#/Town/Building/0/6" shape="rect" alt="outline31" coords="350, 160, 405, 195">
+
+<area title="Fletcher [10]" href="#/Town/Building/0/7" shape="rect" alt="outline32" coords="230, 158, 285, 193">
+
+<area title="Cottage [1]" href="#/Town/Building/0/8" shape="rect" alt="outline33" coords="564, 164, 619, 199">
+
+<area title="Paddock [6]" href="#/Town/Building/0/9" shape="rect" alt="outline34" coords="296, 298, 351, 333">
+
+<area title="Architects' Office [10]" href="#/Town/Building/0/10" shape="rect" alt="outline35" coords="156, 184, 211, 219">
+
+<area title="Marketplace [12]" href="#/Town/Building/0/11" shape="rect" alt="outline36" coords="480, 188, 535, 223">
+
+<area title="Common Ground [10]" href="#/Town/Building/0/12" shape="rect" alt="outline37" coords="562, 218, 617, 253">
+
+<area title="Library [8]" href="#/Town/Building/0/13" shape="rect" alt="outline38" coords="286, 190, 341, 225">
+
+<area title="Mage Tower [7]" href="#/Town/Building/0/14" shape="rect" alt="outline39" coords="474, 226, 529, 261">
+
+<area title="Carpentry [5]" href="#/Town/Building/0/15" shape="rect" alt="outline40" coords="218, 224, 273, 259">
+
+<area title="Cottage [1]" href="#/Town/Building/0/16" shape="rect" alt="outline41" coords="504, 250, 559, 285">
+
+<area title="Brewery [2]" href="#/Town/Building/0/17" shape="rect" alt="outline42" coords="394, 260, 449, 295">
+
+<area title="Cottage [1]" href="#/Town/Building/0/18" shape="rect" alt="outline43" coords="220, 280, 275, 315">
+
+<area title="Skinner's Guild [7]" href="#/Town/Building/0/19" shape="rect" alt="outline44" coords="542, 276, 597, 311">
+
+<area title="Tavern [1]" href="#/Town/Building/0/20" shape="rect" alt="outline45" coords="432, 284, 487, 319">
+
+<area title="Barracks [9]" href="#/Town/Building/0/21" shape="rect" alt="outline46" coords="366, 300, 421, 335">
+
+<area title="Cottage [1]" href="#/Town/Building/0/22" shape="rect" alt="outline47" coords="578, 308, 633, 343">
+
+<area title="Cottage [1]" href="#/Town/Building/0/23" shape="rect" alt="outline48" coords="474, 318, 529, 353">
+
+<area title="Cottage [1]" href="#/Town/Building/0/24" shape="rect" alt="outline49" coords="416, 340, 471, 375">
+
+<area title="Cottage [1]" href="#/Town/Building/0/25" shape="rect" alt="outline50" coords="512, 348, 567, 383">
+
+</map>
+</div>
+
+</div>
+
+
+<!--[if lt IE 8]>
+</div>
+<![endif]-->
+
+
+
+
