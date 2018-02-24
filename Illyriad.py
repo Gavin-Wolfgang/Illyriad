@@ -434,9 +434,7 @@ def loop(driver, usernames, passwords):
 		if(upgradeNeeded == False):
 			myCity.nextCity()
 
-		myCity.checkProduction()
 		time.sleep(.75)
-		print(time.localtime())
 		if(i == 5):
 			i = 0
 			j = (j+1) % len(usernames)
