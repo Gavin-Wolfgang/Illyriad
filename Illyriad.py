@@ -18,7 +18,7 @@ def writeBug(err):
 # opens and logs into illyriad, should be split iunto parts to login to multuiple profiles		#
 #################################################################################################
 def openAPage(document="html.txt"):
-	driver = webdriver.FireFox("C:\Program Files (x86)\FireFox Driver\geckodriver.exe")
+	driver = webdriver.Firefox(executable_path="C:\Program Files (x86)\FireFox Driver\geckodriver.exe")
 	driver.get("https://elgea.illyriad.co.uk/Account/LogOn")
 	time.sleep(.75)
 
