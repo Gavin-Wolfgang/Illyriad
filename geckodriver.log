@@ -1,0 +1,38 @@
+1519661293901	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1519661293908	geckodriver	INFO	Listening on 127.0.0.1:50677
+1519661588575	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1519661588581	geckodriver	INFO	Listening on 127.0.0.1:50727
+1519661596737	geckodriver	INFO	geckodriver 0.19.1
+1519661596743	geckodriver	INFO	Listening on 127.0.0.1:50735
+1519661599877	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\GAVINW~1\\AppData\\Local\\Temp\\rust_mozprofile.e86nSOs2BF2f"
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+1519661600269	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+1519661601291	Marionette	INFO	Listening on port 50744
+1519661601393	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elgea.illyriad.co.uk/, line 730: ReferenceError: goog is not defined
+JavaScript error: https://assets.illyriad.net/scripts/precompressed/illyriad838.min.jsgz, line 1: TypeError: ImagePaths is undefined
+JavaScript error: https://elgea.illyriad.co.uk/, line 785: TypeError: CurPlayerName is undefined
+JavaScript error: https://elgea.illyriad.co.uk/, line 826: ReferenceError: Tip is not defined
+JavaScript error: https://elgea.illyriad.co.uk/, line 1196: ReferenceError: emotify is not defined
+[Child 6084, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6084, Chrome_ChildThread] WARNING: pip[Child 5540, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5540, Chrome_ChildThrea*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1519661629175	geckodriver	INFO	geckodriver 0.19.1
+1519661629180	geckodriver	INFO	Listening on 127.0.0.1:50811
+1519661632287	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\GAVINW~1\\AppData\\Local\\Temp\\rust_mozprofile.ni6R2ySC8hJT"
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+1519661632653	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Gavin W Knopp\AppData\Local\openvr\openvrpaths.vrpath
+1519661633585	Marionette	INFO	Listening on port 50819
+1519661633793	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5748, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

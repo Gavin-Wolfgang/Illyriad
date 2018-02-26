@@ -9,16 +9,17 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-def writeBug(err):
-	file = open("stderr.txt", "w+")
-	file.write(err)
+def writeFile(file, text):
+	file = open(file, "w")
+	file.write(text)
 	file.close()
 
 #################################################################################################
 # opens and logs into illyriad, should be split iunto parts to login to multuiple profiles		#
 #################################################################################################
 def openAPage(document="html.txt"):
-	driver = webdriver.Chrome("C:\Program Files (x86)\chromedriver_win32\chromedriver.exe")
+	# driver = webdriver.Chrome("/home/pi/Desktop/chromedriver.exe")
+	driver = webdriver.Firefox(executable_path="C:\Program Files (x86)\FireFox Driver\geckodriver.exe")
 	driver.get("https://elgea.illyriad.co.uk/Account/LogOn")
 	time.sleep(.75)
 
@@ -72,7 +73,12 @@ class City:
 		self.findResourceProduction()
 		idOfBuilding = self.findLowestofType(self.findLowestProduction())
 		self.upgradeBuilding(idOfBuilding)
+		self.writeUpgrade(idOfBuilding)
 		self.clickUpgrade()
+
+	def writeUpgrade(self, idOfBuilding):
+		string = self.buildings[idOfBuilding][0] + " has been upgraded to level " + (str)(self.buildings[idOfBuilding][1] + 1)
+		writeFile("upgrades.txt", string)
 
 	def checkProduction(self):
 		address = self.driver.execute(webdriver.remote.command.Command.GET_CURRENT_URL)
@@ -248,9 +254,9 @@ class City:
 				content.click()
 				time.sleep(self.waitTime)
 			else:
-				writeBug("Couldnt find class = 'iconBox ib2'")
+				writeFile("stderr.txt", "Couldnt find class = 'iconBox ib2'")
 		else:
-			writeBug("Couldnt find class = 'logo'")
+			writeFile("stderr.txt", "Couldnt find class = 'logo'")
 
 	# clicks on the next city button, if false doesnt update this class' city data
 	def nextCity(self, getInfo=True):
@@ -303,7 +309,7 @@ def login(driver, username, password):
 				inputList[0].clear()
 
 			if(len(val.groups()) < 1): 
-				writeBug('Could not find value=".*?"' + html + "\n\n")
+				writeFile("stderr.txt", 'Could not find value=".*?"' + html + "\n\n")
 			
 			inputList = loginInfo.find_elements_by_id("txtPlayerName")
 			inputList[0].send_keys(username)
@@ -434,10 +440,11 @@ def loop(driver, usernames, passwords):
 		if(upgradeNeeded == False):
 			myCity.nextCity()
 
-		time.sleep(.75)
-		if(i == 5):
+		time.sleep(1)
+		if(i == 2):
 			i = 0
 			j = (j+1) % len(usernames)
+			time.sleep(60)
 			myCity.logout()
 			login(driver, usernames[j], passwords[j])
 		else:
@@ -448,7 +455,7 @@ def main():
 	driver = openAPage()
 	usernames = ["Fuasbi", "Zeratul"]
 	passwords = ["Fuasbi123", "Fuasbi123"]
-	login(driver, usernames[1], passwords[1])
+	login(driver, usernames[0], passwords[0])
 	time.sleep(1)
 	loop(driver, usernames, passwords)
 
